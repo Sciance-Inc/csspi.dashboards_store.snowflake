@@ -1,0 +1,24 @@
+dev:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "GRICS-DFONDATION761000"
+      authenticator: externalbrowser
+      database: "CSSPI"
+      role: "BVD_ROLE_CREATEUR"
+      schema: "COPIN"
+      threads: 1
+      user: "M-GOMEZ-IGLESIAS@CSSPI.GOUV.QC.CA"
+      warehouse: "CSSPI_WH"
+
+    prod:
+      type: snowflake
+      account: "GRICS-DFONDATION761000"
+      authenticator: externalbrowser
+      database: "store"
+      role: "BVD_ROLE_CREATEUR"
+      schema: "COPIN"
+      threads: 1
+      user: "M-GOMEZ-IGLESIAS@CSSPI.GOUV.QC.CA"
+      warehouse: "CSSPI_WH"
