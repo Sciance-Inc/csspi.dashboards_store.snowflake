@@ -2,7 +2,7 @@ name: "csspi_dashboards_store_snowflake"
 version: "1.0.0"
 config-version: 2
 
-profile: "dev"
+profile: "snowflake"
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
@@ -49,3 +49,5 @@ models:
 
 vars:
   is_context_core: false
+
+  database_dfondation: "DFONDATION"
